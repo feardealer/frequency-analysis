@@ -9,7 +9,7 @@ Firstly, compile that suff (I use gcc)
 gcc stat.c -o analysis
 gcc encrypt.c -o encrypt
 ```
-Download or create .txt file for frequency analysis. U can use websites such as ![this](http://www.lib.ru/). For example:
+Download or create .txt file for frequency analysis. U can use websites such as [this](http://www.lib.ru/). For example:
 ```shell
 wget https://raw.githubusercontent.com/brunoklein99/deep-learning-notes/master/shakespeare.txt
 ```
