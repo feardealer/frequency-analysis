@@ -193,3 +193,5 @@ Actually, u can encrypt some text via using encrypt binary file like this
 ./encrypt shakespeare.txt
 ```
 Output should be placed in **encrypted.txt**
+
+![img](screenshot.png)
