@@ -1,5 +1,5 @@
 # Frequency Analysis
-Frequency analysis
+Frequency analysis. The method is largely used as an aid to breaking monoalphabetical ciphers. 
 ### Files
 * **stat.c** - file statistics(All chars, letters, digits, lines, spaces, tabs, special symbols, frequency)
 * **encrypt.c** - text to ascii code
