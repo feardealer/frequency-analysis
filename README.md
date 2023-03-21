@@ -1,5 +1,8 @@
 # Frequency Analysis
-Frequency analysis. The method is largely used as an aid to breaking monoalphabetical ciphers. 
+Frequency analysis. The method is largely used as an aid to breaking monoalphabetical ciphers.
+
+[![C/C++ CI](https://github.com/stylish-bear/frequency-analysis/actions/workflows/c-cpp.yml/badge.svg)](https://github.com/stylish-bear/frequency-analysis/actions/workflows/c-cpp.yml)
+
 ### Files
 * **stat.c** - file statistics(All chars, letters, digits, lines, spaces, tabs, special symbols, frequency)
 * **encrypt.c** - text to ascii code
