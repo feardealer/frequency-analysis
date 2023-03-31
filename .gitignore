@@ -54,3 +54,8 @@ dkms.conf
 # Binary proj files
 encrypt
 stats
+
+# Text files
+source_text.txt
+stats.txt
+encrypted.txt
