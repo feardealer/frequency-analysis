@@ -106,7 +106,7 @@ int main(int argc, char *argv[])
 		fclose(stats);
 		
 	} else {
-		printf("Error!");
+		printf("Error!\n");
 		return 1;
 	}
 
