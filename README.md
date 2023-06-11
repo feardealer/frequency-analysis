@@ -259,8 +259,8 @@ Also u can encrypt ur text with Vigenere cipher
 ```bash
 ./encrypt shakespeare.txt
 ```
-After running u can see encrypted.txt
 
+![img](https://github.com/stylish-bear/frequency-analysis/blob/736979ec071ca49015f3de5c2f38ce12e2868ade/Screen%20Shot%202023-06-11%20at%2010.54.11%20PM.png)
 
 ### Histogram
 (u should have installed the requirements before running this script)
