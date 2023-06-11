@@ -5,7 +5,7 @@ Frequency analysis. The method is largely used as an aid to breaking monoalphabe
 
 ### Files
 * **stat.c** - file statistics(All chars, letters, digits, lines, spaces, tabs, special symbols, frequency)
-* **encrypt.c** - text to ascii code
+* **encrypt.c** - Vigenere cipher
 * **histogram/main.py** - script for drawing the histogram of the character frequency
 
 ### How to use?
@@ -254,6 +254,13 @@ w 0.0260032058746968804371414
 y 0.0272088339658314038718365
 ```
 </details>
+
+Also u can encrypt ur text with Vigenere cipher
+```bash
+./encrypt shakespeare.txt
+```
+After running u can see encrypted.txt
+
 
 ### Histogram
 (u should have installed the requirements before running this script)
