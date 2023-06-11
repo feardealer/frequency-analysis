@@ -260,3 +260,4 @@ y 0.0272088339658314038718365
 ```bash
 python3 histogram/main.py shakespeare.txt
 ```
+![img](histogram.png)
