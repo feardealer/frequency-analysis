@@ -1,5 +1,5 @@
-# Frequency Analysis
-Frequency analysis. The method is largely used as an aid to breaking monoalphabetical ciphers.
+# Frequency Analysis <img width="35px"  src="https://media.tenor.com/rmmiikcfCs8AAAAi/hacker-hacker-man.gif"></img>
+Frequency analysis. The method is largely used as an aid to breaking monoalphabetical ciphers 
 
 [![C/C++ CI](https://github.com/stylish-bear/frequency-analysis/actions/workflows/c-cpp.yml/badge.svg)](https://github.com/stylish-bear/frequency-analysis/actions/workflows/c-cpp.yml)
 
@@ -25,6 +25,60 @@ In my case:
 ./analysis shakespeare.txt
 ```
 U output should be like this
+
+```bash
+user@lab~/R/frequency-analysis $ ./analysis shakespeare.txt 
+Size of shakespeare.txt: 94275 chars.
+
+Letters: 72991
+Digits: 0
+Lines: 2468
+Spaces: 15679
+Tabs: 0
+
+Special: 3137
+
+Lowercase chars: 
+a:4574
+b:1086
+c:1311
+d:2724
+e:9222
+f:1556
+g:1342
+h:5003
+i:4234
+j:66
+k:547
+l:3035
+m:2005
+n:4445
+o:5579
+p:987
+q:51
+r:4166
+s:4847
+t:6754
+u:2299
+v:924
+w:1645
+x:60
+y:1952
+z:20
+
+Uppercase chars: 
+A:367
+B:144
+C:31
+D:39
+E:27
+...
+
+```
+
+<details>
+<summary>Click to view full output</summary>
+  
 ```bash
 user@lab~/R/frequency-analysis $ ./analysis shakespeare.txt 
 Size of shakespeare.txt: 94275 chars.
@@ -165,7 +219,13 @@ V-v:1.2672795276%
 W-w:2.6003205875%
 Y-y:2.7208833966%
 ```
+</details>
+
 U will also get a file with statistics (**stats.txt**). Content of **stats.txt** in my case:
+
+<details>
+<summary>Show stats.txt content</summary>
+
 ```bash
 a 0.0676932772533600032876947
 b 0.0168513926374484525491198
@@ -191,10 +251,4 @@ v 0.0126727952761299338275213
 w 0.0260032058746968804371414
 y 0.0272088339658314038718365
 ```
-Actually, u can encrypt some text via using encrypt binary file like this
-```bash
-./encrypt shakespeare.txt
-```
-Output should be placed in **encrypted.txt**
-
-![img](screenshot.png)
+</details>
