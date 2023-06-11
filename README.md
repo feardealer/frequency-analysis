@@ -256,6 +256,7 @@ y 0.0272088339658314038718365
 </details>
 
 ### Histogram
+(u should have installed the requirements before running this script)
 ```bash
 python3 histogram/main.py shakespeare.txt
 ```
